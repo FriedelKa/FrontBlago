@@ -71,6 +71,42 @@ let(null == "\n0\n"); // false
 let(null === +"\n0\n"); // false
 
 //Условное ветвление: if, '?'
-//Задача 1 
+//Задача. Название JavaScript
+    let nameJavaScript = prompt('Какое "официальное" название JavaScript?', '');
 
-</script>
+    if (nameJavaScript == 'ECMAScript') {
+    alert( 'Верно!' );
+    } else {
+    alert( 'Не знаете? «ECMAScript»!' );
+    } 
+
+//Задача. Покажите знак числа
+
+    let number = prompt('Введите число', 0);
+    if (number > 0) {
+        alert(1);
+    } if (number < 0) {
+        alert(-1);
+    } if (number == 0) {
+        alert(0);
+    } 
+
+//Задача. Перепишите 'if' в '?' 
+    let a = 2;
+    let b = 3;
+
+    let result = (a + b < 4) ? 'Мало' : 'Много';
+    alert (result);
+
+//Задача. Перепишите 'if..else' в '?'
+
+    let login = prompt('Введите логин', '');
+    let message = (login == 'Сотрудник') ? 'Привет' : 
+    (login == 'Директор') ? 'Здравствуйте' : 
+    ''; 
+
+    alert  =  (message); 
+
+
+
+</script> 
