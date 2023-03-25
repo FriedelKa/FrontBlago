@@ -123,7 +123,7 @@ let(null === +"\n0\n"); // false
     }   else if (login === '' || login === null) {
             alert( 'Отменено' );
     }   else {
-            alert( "Я вас не знаю" );
+            alert( "Я вас знать не знаю" );
     }  
  
 
