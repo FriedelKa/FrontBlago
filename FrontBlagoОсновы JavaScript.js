@@ -109,7 +109,7 @@ let(null === +"\n0\n"); // false
 
 //Задача. Проверка логина 
    
-    let login = prompt("Введите логин", '');
+    let login = prompt('Введите логин', '');
 
     if (login === 'Админ') {
     let password = prompt('Введите пароль', '');
